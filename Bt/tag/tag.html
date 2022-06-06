@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .tag{
+            background: #ccc;
+            padding: 15px;
+            text-decoration: none;
+            border-radius: 0 10px 10px 0;
+            display: inline-block;
+            position: relative;
+            left: 30px;
+        }
+        .tron{
+            width: 10px;
+            height: 10px;
+            background: #000;
+            position: absolute;
+            left: 0;
+            top: calc(50% - 5px);
+            border-radius: 10px;
+
+        }
+        .tamgiac{
+            width: 30px;
+            background: #000;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: -30px;
+            clip-path: polygon(100% 0 ,100% 100%, 0 50%);
+        }
+    </style>
+</head>
+<body>
+ <a href="" class="tag">
+     <div class="tron"></div>
+     <div class="tamgiac"></div>
+    tag name</a>
+</body>
+</html>
